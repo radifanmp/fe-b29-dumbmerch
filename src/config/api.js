@@ -1,7 +1,7 @@
 export const API = () => {
   const baseUrl =
     process.env.SERVER_URL ||
-    "https://be-b29-dumbmerch.herokuapp.com/" ||
+    "https://be-b29-dumbmerch.herokuapp.com/api/v1" ||
     "https://localhost:5000/api/v1";
 
   const executeAPI = async (endpoint, config) => {
